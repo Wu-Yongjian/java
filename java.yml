@@ -1,0 +1,8 @@
+ci:
+- imageName: maven
+  workNode: master
+  proxyUrl: ''
+  appRepoUrl: https://github.com/Wu-Yongjian/java.git
+  appBranchName: main
+  buildCommand: mvn clean package
+  artifactoryRepo: ''
