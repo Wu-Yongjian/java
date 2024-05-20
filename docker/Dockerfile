@@ -1,5 +1,5 @@
 # 使用 Nginx 官方镜像作为基础镜像
-FROM nginx:latest
+FROM docker.io/nginx:latest
 
 # 删除默认的 Nginx 网站配置
 RUN rm -rf /etc/nginx/conf.d/*
